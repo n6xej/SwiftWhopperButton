@@ -13,7 +13,6 @@
 		CE0B37311D386DEB00F40B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0B37301D386DEB00F40B97 /* Assets.xcassets */; };
 		CE0B37341D386DEB00F40B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0B37321D386DEB00F40B97 /* LaunchScreen.storyboard */; };
 		CE0B373C1D386EBE00F40B97 /* SwiftWhopperButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B373B1D386EBE00F40B97 /* SwiftWhopperButton.swift */; };
-		CE234F311D387D0400F40812 /* SwiftWhopperButton.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = CE234F301D387D0400F40812 /* SwiftWhopperButton.xcworkspace */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		CE0B37331D386DEB00F40B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0B37351D386DEB00F40B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0B373B1D386EBE00F40B97 /* SwiftWhopperButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftWhopperButton.swift; sourceTree = "<group>"; };
-		CE234F301D387D0400F40812 /* SwiftWhopperButton.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = SwiftWhopperButton.xcworkspace; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +40,6 @@
 		CE0B371D1D386DEB00F40B97 = {
 			isa = PBXGroup;
 			children = (
-				CE234F301D387D0400F40812 /* SwiftWhopperButton.xcworkspace */,
 				CE0B37281D386DEB00F40B97 /* SwiftWhopperButton */,
 				CE0B37271D386DEB00F40B97 /* Products */,
 			);
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE234F311D387D0400F40812 /* SwiftWhopperButton.xcworkspace in Resources */,
 				CE0B37341D386DEB00F40B97 /* LaunchScreen.storyboard in Resources */,
 				CE0B37311D386DEB00F40B97 /* Assets.xcassets in Resources */,
 				CE0B372F1D386DEB00F40B97 /* Main.storyboard in Resources */,
