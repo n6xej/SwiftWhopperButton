@@ -3,7 +3,9 @@ Animate hamburger button that is IBDesignable and IBInspectable written in Swift
 Tested from 20x20 to 300x300 and scales perfectly
 * IBDesignable, IBInspectable Support
 ![ScreenShot](https://github.com/n6xej/SwiftWhopperButton/blob/master/Whopper.gif)
+
 ### Storyboard
+
 ![ScreenShot](https://github.com/n6xej/SwiftWhopperButton/blob/master/pic1.png)
 
 
