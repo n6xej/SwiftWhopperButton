@@ -4,4 +4,7 @@
    <FileRef
       location = "group:SwiftWhopperButton.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ObjectiveC/WhopperTest.xcodeproj">
+   </FileRef>
 </Workspace>
