@@ -214,8 +214,9 @@ class SwiftWhopperButton: UIButton {
 			let strokingPath = CGPathCreateCopyByStrokingPath(layer.path, nil, strokeWidth, .Round, .Miter, strokeWidth)
 
 			layer.bounds = CGPathGetPathBoundingBox(strokingPath)
-
-			self.layer.addSublayer(layer)
+			
+			// don't need this layoutSubviews() is called right after this
+//			self.layer.addSublayer(layer)
 		}
 	}
 
