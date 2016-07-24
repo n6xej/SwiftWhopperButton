@@ -46,10 +46,25 @@ enum PathConvertType: Int {
 class SwiftWhopperButton: UIButton {
 
 	@objc
-	@IBInspectable var lineColor: UIColor = UIColor.blackColor()
+	@IBInspectable var lineColor: UIColor = UIColor.blackColor() {
+		didSet {
+			if _topLayer != nil {
+				_topLayer.strokeColor = lineColor.CGColor
+				_middleLayer.strokeColor = lineColor.CGColor
+				_bottomLayer.strokeColor = lineColor.CGColor
+			}
+		}
+	}
 
 	@objc
-	@IBInspectable var circleColor: UIColor = UIColor.clearColor()
+	@IBInspectable var circleColor: UIColor = UIColor.clearColor() {
+		didSet {
+			if _circleLayer != nil {
+				_circleLayer.strokeColor = circleColor.CGColor
+			}
+		}
+	}
+
 
 	private var altAni: Bool = false
 
@@ -72,7 +87,8 @@ class SwiftWhopperButton: UIButton {
 			if topPos0 == nil {
 				// If this is called before init, so can ignore
 				// commonInit() has not happened
-			} else {
+			}
+			else {
 				configButton()
 			}
 		}
